@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">VideoDemo</string>
+
+
+    <!-- 权限申请-->
+
+
+    <!--<string name="app_name">即时判</string>-->
+
+<!-- http -->
+
+    <!-- 自定义dialog -->
+
+    <!-- 操作提示 -->
+
+<!-- 下拉刷新显示时间 -->
+<string name="time_just_now">刚刚</string>
+<string name="time_minute">%d分钟前</string>
+<string name="time_hour">%d小时前</string>
+<string name="time_day">%d天前</string>
+<string name="time_month">%d月前</string>
+<string name="time_year">%d年前</string>
+<string name="time_yesterday_hour_minute">昨天 %s</string>
+<!-- 时间 -->
+<string name="time_after_tomorrow">后天%s</string>
+<string name="time_tomorrow">明天%s</string>
+<string name="time_today">今天%s</string>
+<string name="time_yesterday">昨天%s</string>
+<string name="time_before_yesterday">前天%s</string>
+<string name="time_this_week">本周%s</string>
+<string name="time_last_week">上周%s</string>
+<string name="time_this_month">本月%s</string>
+<string name="time_last_month">上月%s</string>
+
+<string name="today">今天</string>
+<string name="yesterday">昨天</string>
+<string name="before_yesterday">前天</string>
+<!-- 图片选择 -->
+
+    <!-- 微信授权 -->
+
+    <!-- 登录 -->
+
+    <!-- 注册 -->
+
+    <!-- 绑定OBD -->
+
+    <!-- 车辆选择 -->
+
+    <!-- 设置 -->
+
+    <!-- 车主信息 -->
+
+    <!-- 主页 -->
+
+    <!-- 生涯 -->
+
+    <!-- 足迹 -->
+
+    <!-- 车辆详情 -->
+
+    <!-- 车辆状态 -->
+
+    <!--盒子状态-->
+
+    <!-- 绑定微信 -->
+
+    <!-- 随手拍违章 -->
+
+
+    <!-- 保险报案 -->
+
+
+    <!-- 我的 -->
+
+
+    <!-- 驾驶证 -->
+
+
+    <!-- 违章查询-->
+
+    <!--城市选择-->
+
+
+    <!-- 随手拍违章 -->
+    <!-- 刷新 -->
+
+
+    <!-- 商城 -->
+
+
+    <!-- 后视镜 -->
+
+
+    <!--请求权限描述-->
+
+
+
+
+
+    <string name="login">登录</string>
+    <string name="login_forget_pwd">忘记密码</string>
+    <string name="please_input_limit_pwd">请输入数字或字母</string>
+
+
+</resources>

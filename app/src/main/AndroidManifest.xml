@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="videodemo">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<!--bugly-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name = "android.permission.DISABLE_KEYGUARD"/><!-- 屏蔽HOME键需要的权限 -->
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.intent.action.ACTION_REQUEST_SHUTDOWN" />
+
+
+
+    <application
+        android:name="base.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name="ui.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="ui.activity.DaShenActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="ui.activity.MoveImageviewActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="ui.activity.MoveViewActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="ui.activity.WeigetMoveActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="ui.activity.WelcomeActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="ui.activity.RulerActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="ui.activity.ViewpagerActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="ui.activity.GlideActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="ui.activity.RecycleViewActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="ui.activity.video.ChoosePhotosActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="ui.activity.SViewOrRviewBattleActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="ui.activity.video.DownParallaxActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="ui.activity.LoopViewpagerActivity"
+            >
+
+        </activity>
+        <activity
+            android:name="ui.activity.PulltorefreshListViewActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="ui.activity.PoupwindowActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="ui.activity.eventbus.EventBusActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="ui.activity.eventbus.SecondEventBusActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="ui.activity.eventbus.eventBus2.tryeventbus2.FirstActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="ui.activity.eventbus.eventBus2.tryeventbus2.SecondActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="ui.activity.TransparencyToolbarActivity"
+            android:screenOrientation="portrait"
+
+           >
+
+        </activity>
+
+        <activity android:name="ui.activity.CustomViewActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="ui.activity.CustomTitleActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+
+        <activity android:name="ui.activity.FocussActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.MobleSalfActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.StatusbariconActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.WelcomeAnimActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.MainInterfaceActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.TestActivity">
+
+        </activity>
+        <activity android:name="ui.activity.AnimationActivity">
+
+        </activity>
+        <activity android:name="ui.activity.CustomCombinationsActivity">
+
+        </activity>
+        <activity android:name="ui.activity.CustomCombinationsPRogressbarActivity">
+
+        </activity>
+        <activity android:name="ui.activity.OneViewActivity">
+
+        </activity>
+        <activity android:name="ui.activity.HelpExpandadleListActivity">
+
+        </activity>
+        <activity android:name="ui.activity.PropertyAnimationActivity">
+
+        </activity>
+        <activity android:name="ui.activity.IPCActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.DialogGroupActivity">
+
+        </activity>
+        <activity android:name="ui.activity.CanvasActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.FullHeightChangeSevenLinesActivity">
+
+        </activity>
+        <activity android:name="ui.activity.FullHeightChangeZeroLinesActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.PieChartDemoActivity">
+
+        </activity>
+
+       <activity android:name="ui.activity.DrawTextActivity">
+
+       </activity>
+        <activity android:name="ui.activity.StartAndMainInterfaceActivity">
+
+        </activity>
+        <activity android:name="ui.activity.CencleCircleActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.ContactsActivity">
+
+        </activity>
+        <activity android:name="ui.activity.BesselPlotActivity">
+
+        </activity>
+        <activity android:name="ui.activity.phoneplayer.SplashActivityPhone">
+
+        </activity>
+     <activity android:name="ui.activity.phoneplayer.MainActivityPhone">
+
+     </activity>
+        <activity android:name="ui.activity.TweenedAnimationActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.ViewAnimDemoActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.CircleProgressBarActivity">
+
+        </activity>
+        <activity android:name="ui.activity.HorizontalProgressBarActivity">
+
+        </activity>
+        <activity android:name="ui.activity.WaveByBezierActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.AnimationBtnActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.MaterialDesignActivity">
+
+        </activity>
+        <activity android:name="ui.activity.SlideUpwardIntoTitlebarActivity">
+
+        </activity>
+        <activity android:name="ui.activity.PictureActivity">
+
+        </activity>
+        <activity android:name="ui.activity.PictureZoomActivity">
+
+        </activity>
+        <activity android:name="ui.activity.ListviewMultipleEntriesActivity">
+
+        </activity>
+        <activity android:name="ui.activity.RecycleviewMultipleEntriesActivity">
+
+        </activity>
+        <activity android:name="ui.activity.ZoomLoadingLargePictureActivity">
+
+        </activity>
+        <activity android:name="ui.activity.TearClothesActivity">
+
+        </activity>
+        <activity android:name="ui.activity.ScanPicturesOnSDcardActivity">
+
+        </activity>
+        <activity android:name="ui.activity.VideoClippingActivity">
+
+        </activity>
+        <activity android:name="ui.activity.VideoTrimActivity">
+
+        </activity>
+        <activity android:name="ui.activity.VideoAudioActivity">
+
+        </activity>
+
+        <activity android:name="ui.activity.UpdataRestarActivity">
+
+        </activity>
+        <activity android:name="ui.activity.MobilePlayerActivity">
+
+        </activity>
+        <activity android:name="ui.activity.VideoPlayerActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+        </activity>
+        <activity android:name="ui.activity.LessCommonlyUsedViewActivity">
+
+        </activity>
+        <activity android:name="ui.activity.DatePickerDialogActivity">
+
+        </activity>
+        <activity android:name="ui.activity.MobileVirusScanningActivity">
+
+        </activity>
+        <activity android:name="ui.activity.ThirdPartySDKActivity">
+
+        </activity>
+        <activity android:name="ui.activity.LoginKeyboardScalingActivity">
+
+        </activity>
+        <activity android:name="ui.activity.LoginKeyboardScalingActivity2">
+
+        </activity>
+        <activity android:name="ui.activity.TimerActivity">
+
+        </activity>
+        <activity android:name="ui.activity.AudioListActivity">
+
+        </activity>
+        <activity android:name="ui.activity.AudioPlayerActivity">
+            
+        </activity>
+        <activity android:name="ui.activity.RecycleviewSideslipRemovalActivity">
+
+        </activity>
+        <activity android:name="ui.activity.MeiZuApplicationsBannerViewActivity">
+
+        </activity>
+        <activity android:name="ui.activity.PieChartActivity">
+
+        </activity>
+        <activity android:name="ui.activity.ToggleButtonViewActivity">
+
+        </activity>
+        <activity android:name="ui.activity.PullDownEnlargePicturesActivity">
+
+        </activity>
+        <activity android:name="ui.activity.ImitationMeiTuanViewPagerActivity">
+
+        </activity>
+        <activity android:name="ui.activity.PhotoGalleryUploadActivity">
+
+        </activity>
+        <activity android:name="ui.activity.AlipayShoopShoopActivity">
+
+        </activity>
+        <activity android:name="ui.activity.ImitationWeChatRecordingProgressBarActivity">
+
+        </activity>
+        <activity android:name="ui.activity.OneDiffusedRadarActivity">
+
+        </activity>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+package util;
+
+import android.util.DisplayMetrics;
+
+import static base.MyApplication.mContext;
+
+/**
+ * Created by choujason on 7/31/16.
+ */
+
+public class UnitConverter {
+
+
+    public static DisplayMetrics getDisplayMetrics(){
+
+        return mContext.getResources().getDisplayMetrics();
+    }
+
+    public static float dpToPx(float dp) {
+        return dp * getDisplayMetrics().density;
+    }
+
+    public static int dpToPx(int dp) {
+        return (int) (dp * getDisplayMetrics().density + 0.5f);
+    }
+    public static float dpToPxx(int dp) {
+        return (dp * getDisplayMetrics().density + 0.5f);
+    }
+
+    public static float pxToDp(float px) {
+        return px / getDisplayMetrics().density;
+    }
+
+    public static int pxToDp(int px) {
+        return (int) (px / getDisplayMetrics().density + 0.5f);
+    }
+
+    public static float spToPx(float sp) {
+        return sp * getDisplayMetrics().scaledDensity;
+    }
+
+    public static int spToPx(int sp) {
+        return (int) (sp * getDisplayMetrics().scaledDensity + 0.5f);
+    }
+
+    public static float pxToSp(float px) {
+        return px / getDisplayMetrics().scaledDensity;
+    }
+
+    public static int pxToSp(int px) {
+        return (int) (px / getDisplayMetrics().scaledDensity + 0.5f);
+    }
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="help_type_app">
+        <item>“打开微信”</item>
+        <item>“打开音乐”</item>
+    </string-array>
+
+    <string-array name="help_type_navi">
+        <item>“导航到天安门”</item>
+        <item>“天安门怎么走”</item>
+        <item>“去天安门”</item>
+        <item>“退出导航”</item>
+    </string-array>
+
+
+    <string-array name="help_type_phone">
+        <item>“给‘张三’打电话”</item>
+        <item>“打电话给‘张三’”</item>
+    </string-array>
+
+    <string-array name="help_type_music">
+        <item>“我要听七十二变”</item>
+        <item>“播放陈奕迅的浮夸”</item>
+        <item>“关闭音乐”</item>
+    </string-array>
+
+    <string-array name="help_type_wechat">
+        <item>“发微信给张三”</item>
+        <item>“关闭微信播报”</item>
+        <item>“退出微信”</item>
+    </string-array>
+
+    <string-array name="help_type_weather">
+        <item>“明天天气怎么样”</item>
+        <item>“北京天气怎么样”</item>
+    </string-array>
+
+    <string-array name="help_type_fm">
+        <item>“我想听郭德纲的相声”</item>
+        <item>“北京交通台广播”</item>
+    </string-array>
+
+    <string-array name="help_type_near">
+        <item>“附近的加油站”</item>
+        <item>“最近的肯德基”</item>
+    </string-array>
+
+    <string-array name="help_type_name">
+        <item>“给你起个名字叫“判判””</item>
+    </string-array>
+
+    <string-array name="help_type_voice">
+        <item>“打开声音”</item>
+        <item>“声音小一点”</item>
+    </string-array>
+
+</resources>

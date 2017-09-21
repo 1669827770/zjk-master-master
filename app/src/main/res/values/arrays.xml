@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="help_type_array">
+        <item>如何打开应用</item>
+        <item>如何导航</item>
+        <item>如何打电话</item>
+        <item>如何放音乐</item>
+
+        <item>如何玩微信</item>
+        <item>如何了解天气</item>
+        <item>如何给我换个名字</item>
+        <item>如何设置</item>
+    </string-array>
+
+
+</resources>

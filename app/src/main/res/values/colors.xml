@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFFFF</color>
+    <!-- 背景色 -->
+    <color name="bg_deep_blue">#262743</color>
+    <!-- 背景色 -->
+    <color name="bg_color">#EFEFF4</color>
+
+    <color name="yellow">#fd9c06</color>
+    <color name="red">#EE2C2C</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="black">#000000</color>
+    <color name="color_one">#FDE4BB</color>
+    <color name="color_two">#FCD2A1</color>
+    <color name="color_three">#EF8273</color>
+
+
+    <color name="green">#31C27C</color>
+    <color name="half_white">#66ffffff</color>
+
+    <color name="qlv">#99FFCC</color>
+    <color name="textColorPrimaryDark">#ff000000</color>
+    <color name="al_blue">#0079FF</color>
+    <color name="normal_blue">#459FD7</color>
+    <color name="virus_green">#73FF73</color>
+
+
+
+    <color name="color_999999">#999999</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_c61a04">#c61a04</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_d81e06">#d81e06</color>
+    <color name="color_b0b8b2">#b0b8b2</color>
+
+
+</resources>
